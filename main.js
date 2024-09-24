@@ -1,10 +1,9 @@
-let n = 0;
+let n = 10;
 let count = 0;
-let number = +prompt("Nhap so");
+let number = 5;
 
 function isPrime(n) {
 	if (n < 2) return false;
-
 	if (n < 4) return true;
 
 	for (let i = 2; i < n; i++) {
@@ -20,3 +19,12 @@ while (count < number) {
 	}
 	n++;
 }
+
+// for (let i = 0; i < count; i++) {
+// 	if (isPrime(n)) {
+// 		document.write(n + "<br>");
+// 		// arr.push(n);
+// 		// count++;
+// 	}
+// 	n++;
+// }
