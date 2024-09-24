@@ -9,8 +9,28 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<h1>Hello</h1>
+		<h1>Foot to Meter</h1>
 		<p id="demo"></p>
+		<input
+			type="number"
+			name="foot"
+			id="foot"
+			placeholder="Foot"
+			onchange="footToMeter()"
+			oninput="footToMeter()"
+		/>
+		<span>feet</span>
+		<br />
+		<input
+			type="number"
+			name="meter"
+			id="meter"
+			placeholder="Meter"
+			onchange="meterToFoot()"
+			oninput="meterToFoot()"
+		/>
+		<span>meters</span>
+		<p id="meterToFoot"></p>
 		<script src="main.js"></script>
 	</body>
 </html>
